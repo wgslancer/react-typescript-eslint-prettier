@@ -61,7 +61,6 @@
   "lint-staged": {
     "*.{ts,tsx}": [
       "yarn run lint",
-      "yarn run format",
       "git add ."
     ]
   }
